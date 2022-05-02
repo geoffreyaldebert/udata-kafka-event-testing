@@ -24,3 +24,6 @@ udata-kafka-event-testing produce <TOPIC_NAME> <SERVICE_NAME:OPTIONAL> <MESSAGE_
 
 If there is sereral services or message types for a specific topic and you don't wrote it in command, prompt will ask which one you want.
 
+## Add new messages
+
+You can add new messages to `messages.json` file. 
