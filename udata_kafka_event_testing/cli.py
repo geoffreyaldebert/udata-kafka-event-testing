@@ -37,10 +37,14 @@ def consume():
             pass
 
 
+
+@click.option('-t', '--topic', default='resource.created',
+              help='Topic on which send message')
+@click.option('-s', '--service', default=None,
+              help='Service which send the message')
+@click.option('-mt', '--message_type', default=None,
+              help='Message type')
 @cli.command()
-@click.argument('topic', default='resource.created')
-@click.argument('service', default=None, required=False)
-@click.argument('message_type', default=None, required=False)
 def produce(topic, service, message_type):
     selection = []
     list_services = []
