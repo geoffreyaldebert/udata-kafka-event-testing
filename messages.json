@@ -1,6 +1,6 @@
 [
     {
-        "topic": "resource.created",
+        "topic": "udata.resource.created",
         "key": "71cacba9-4ffd-4ea8-bc3e-694425ddf006",
         "type": "csv",
         "message": {
@@ -11,14 +11,14 @@
                     "created_at": "2021-01-12T15:45:14.597000",
                     "description": "Synthèse des indicateurs avec leurs valeurs initiales, actuelles et cibles, ainsi que le pourcentage de progression et le taux d’avancement, à l’échelle nationale.",
                     "extras": {
-                      "check:available": true,
-                      "check:count-availability": 75,
-                      "check:date": "2021-07-06T21:40:41.840000",
-                      "check:headers:charset": "utf-8",
-                      "check:headers:content-length": 4079,
-                      "check:headers:content-type": "text/plain",
-                      "check:status": 200,
-                      "check:url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/barometre-resultats-synthese-national.csv"
+                        "check:available": true,
+                        "check:count-availability": 75,
+                        "check:date": "2021-07-06T21:40:41.840000",
+                        "check:headers:charset": "utf-8",
+                        "check:headers:content-length": 4079,
+                        "check:headers:content-type": "text/plain",
+                        "check:status": 200,
+                        "check:url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/barometre-resultats-synthese-national.csv"
                     },
                     "filesize": null,
                     "filetype": "remote",
@@ -27,14 +27,12 @@
                     "last_modified": "2021-01-13T11:00:33.332000",
                     "latest": "https://www.data.gouv.fr/fr/datasets/r/71cacba9-4ffd-4ea8-bc3e-694425ddf006",
                     "metrics": {
-                      "views": 1
+                        "views": 1
                     },
                     "mime": null,
                     "preview_url": null,
                     "published": "2021-01-12T15:45:14",
-                    "schema": {
-                      
-                    },
+                    "schema": {},
                     "title": "barometre-resultats-synthese-national.csv",
                     "type": "main",
                     "url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/barometre-resultats-synthese-national.csv"
@@ -46,7 +44,7 @@
         }
     },
     {
-        "topic": "resource.created",
+        "topic": "udata.resource.created",
         "key": "1a35594a-99f2-4257-87e0-ec2f55039276",
         "type": "xlsx",
         "message": {
@@ -54,14 +52,12 @@
             "value": {
                 "resource": {
                     "checksum": {
-                      "type": "sha1",
-                      "value": "fd2a5e095d6f5b1c98059cf9dad376f514e95f0e"
+                        "type": "sha1",
+                        "value": "fd2a5e095d6f5b1c98059cf9dad376f514e95f0e"
                     },
                     "created_at": "2022-04-14T15:24:38.551000",
                     "description": null,
-                    "extras": {
-                      
-                    },
+                    "extras": {},
                     "filesize": 290023,
                     "filetype": "file",
                     "format": "xlsx",
@@ -69,14 +65,12 @@
                     "last_modified": "2022-04-14T15:24:40.142000",
                     "latest": "https://www.data.gouv.fr/fr/datasets/r/1a35594a-99f2-4257-87e0-ec2f55039276",
                     "metrics": {
-                      "views": 688
+                        "views": 688
                     },
                     "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                     "preview_url": "/tabular/preview/?url=https%3A%2F%2Fstatic.data.gouv.fr%2Fresources%2Felection-presidentielle-des-10-et-24-avril-2022-resultats-definitifs-du-1er-tour%2F20220414-152438%2Fresultats-par-niveau-cirlg-t1-france-entiere.xlsx",
                     "published": "2022-04-14T15:24:38",
-                    "schema": {
-                      
-                    },
+                    "schema": {},
                     "title": "resultats-par-niveau-cirlg-t1-france-entiere.xlsx",
                     "type": "main",
                     "url": "https://static.data.gouv.fr/resources/election-presidentielle-des-10-et-24-avril-2022-resultats-definitifs-du-1er-tour/20220414-152438/resultats-par-niveau-cirlg-t1-france-entiere.xlsx"
@@ -88,7 +82,7 @@
         }
     },
     {
-        "topic": "resource.created",
+        "topic": "udata.resource.created",
         "key": "fe9fe926-a284-484f-8f65-57ffd46f1ba4",
         "type": "json",
         "message": {
@@ -99,14 +93,14 @@
                     "created_at": "2021-01-12T17:12:59.409000",
                     "description": "Synthèse des indicateurs avec leurs valeurs initiales, actuelles et cibles, ainsi que le pourcentage de progression et le taux d’avancement, à l’échelle nationale.",
                     "extras": {
-                      "check:available": true,
-                      "check:count-availability": 13,
-                      "check:date": "2021-06-25T14:01:09.014000",
-                      "check:headers:charset": "utf-8",
-                      "check:headers:content-length": 4788,
-                      "check:headers:content-type": "text/plain",
-                      "check:status": 200,
-                      "check:url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/json/barometre-resultats-synthese-national.json"
+                        "check:available": true,
+                        "check:count-availability": 13,
+                        "check:date": "2021-06-25T14:01:09.014000",
+                        "check:headers:charset": "utf-8",
+                        "check:headers:content-length": 4788,
+                        "check:headers:content-type": "text/plain",
+                        "check:status": 200,
+                        "check:url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/json/barometre-resultats-synthese-national.json"
                     },
                     "filesize": null,
                     "filetype": "remote",
@@ -115,14 +109,12 @@
                     "last_modified": "2021-01-13T11:01:02.132000",
                     "latest": "https://www.data.gouv.fr/fr/datasets/r/fe9fe926-a284-484f-8f65-57ffd46f1ba4",
                     "metrics": {
-                      "views": 4
+                        "views": 4
                     },
                     "mime": null,
                     "preview_url": null,
                     "published": "2021-01-12T17:12:59",
-                    "schema": {
-                      
-                    },
+                    "schema": {},
                     "title": "barometre-resultats-synthese-national.json",
                     "type": "main",
                     "url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/json/barometre-resultats-synthese-national.json"
@@ -134,7 +126,7 @@
         }
     },
     {
-        "topic": "resource.created",
+        "topic": "udata.resource.created",
         "key": "98f7cac6-6b29-4859-8739-51b825196959",
         "type": "zip",
         "message": {
@@ -142,17 +134,17 @@
             "value": {
                 "resource": {
                     "checksum": {
-                      "type": "sha1",
-                      "value": "a4ca4d9b4f5bee00de049cb73cc0abe8cbcfc52a"
+                        "type": "sha1",
+                        "value": "a4ca4d9b4f5bee00de049cb73cc0abe8cbcfc52a"
                     },
                     "created_at": "2016-06-13T14:20:43.722000",
                     "description": "Archive ZIP qui regroupe :\n-\tLa liste des produits autorisés ou retirés avec leurs AMM et leurs types de classification. (Fichiers : produits_ … .csv)\n\n-\tLa liste des usages des produits (hors MFSC). Il existe une ligne par usage et produit. Un même produit se retrouve donc sur plusieurs lignes (une par usage du produit). Le tableau contient les produits autorisés et retirés. (Fichiers : produits_usages_ … .csv)\n\n-\tLa liste des usages des produits (hors MFSC) autorisés. Il existe une ligne par usage et produit. Un même produit se retrouve donc sur plusieurs lignes (une par usage du produit). Le tableau contient uniquement les produits autorisés, mais informe sur tous les usages autorisés ou retirés de ce produit. (Fichiers : usages_des_produits_autorises_ … .csv)\n\n-\tLa liste des phrases de risque des produits. (Fichiers : produits_phrases_de_risque_ … .csv)\n\n-\tLa liste des substances actives. (Fichiers : substance_active_ … .csv)\n\n-\tLa liste des conditions d’emploi des produits. Il existe une ligne par conditions d’emploi et produit. Un même produit se retrouve donc sur plusieurs lignes (une par conditions d’emploi du produit). (Fichiers produits_condition_emploi_ … .csv)\n\n-\tLa liste des classes et des mentions danger des produits (hors MFSC). Il existe une ligne par classes – mentions dangers et produit. Un même produit se retrouve donc sur plusieurs lignes. (Fichiers produits_classe_et_mention_danger_ … .csv)\n\n-\tLa liste des usages des MFSC et produits mixtes. Il existe une ligne par usage et produit. Un même produit se retrouve donc sur plusieurs lignes (une par usage du produit). (Fichiers mfsc_et_mixte_usage_ … .csv)\n\n-\tLa liste des compositions des MFSC et produits mixtes. (Fichiers mfsc_et_mixte_composition_ … .csv)",
                     "extras": {
-                      "check:available": true,
-                      "check:count-availability": 18,
-                      "check:date": "2022-01-16T13:11:00.319000",
-                      "check:status": 204,
-                      "check:url": "https://static.data.gouv.fr/resources/donnees-ouvertes-du-catalogue-des-produits-phytopharmaceutiques-adjuvants-matieres-fertilisantes-et-support-de-culture-produits-mixtes-et-melanges-e-phy/20180926-104236/usages-des-produits-autorises-v2-windows-1252.csv"
+                        "check:available": true,
+                        "check:count-availability": 18,
+                        "check:date": "2022-01-16T13:11:00.319000",
+                        "check:status": 204,
+                        "check:url": "https://static.data.gouv.fr/resources/donnees-ouvertes-du-catalogue-des-produits-phytopharmaceutiques-adjuvants-matieres-fertilisantes-et-support-de-culture-produits-mixtes-et-melanges-e-phy/20180926-104236/usages-des-produits-autorises-v2-windows-1252.csv"
                     },
                     "filesize": 6626005,
                     "filetype": "file",
@@ -161,17 +153,15 @@
                     "last_modified": "2022-04-22T15:37:17.098000",
                     "latest": "https://www.data.gouv.fr/fr/datasets/r/98f7cac6-6b29-4859-8739-51b825196959",
                     "metrics": {
-                      "nb_hits": 0,
-                      "nb_uniq_visitors": 0,
-                      "nb_visits": 0,
-                      "views": 113
+                        "nb_hits": 0,
+                        "nb_uniq_visitors": 0,
+                        "nb_visits": 0,
+                        "views": 113
                     },
                     "mime": "application/zip",
                     "preview_url": null,
                     "published": "2022-04-22T15:37:05",
-                    "schema": {
-                      
-                    },
+                    "schema": {},
                     "title": "decisionamm-intrant-format-csv-20220422.zip",
                     "type": "main",
                     "url": "https://static.data.gouv.fr/resources/donnees-ouvertes-du-catalogue-e-phy-des-produits-phytopharmaceutiques-matieres-fertilisantes-et-supports-de-culture-adjuvants-produits-mixtes-et-melanges/20220422-153704/decisionamm-intrant-format-csv-20220422.zip"
@@ -183,7 +173,7 @@
         }
     },
     {
-        "topic": "resource.modified",
+        "topic": "udata.resource.modified",
         "key": "71cacba9-4ffd-4ea8-bc3e-694425ddf006",
         "type": "csv",
         "message": {
@@ -194,14 +184,14 @@
                     "created_at": "2021-01-12T15:45:14.597000",
                     "description": "Synthèse des indicateurs avec leurs valeurs initiales, actuelles et cibles, ainsi que le pourcentage de progression et le taux d’avancement, à l’échelle nationale.",
                     "extras": {
-                      "check:available": true,
-                      "check:count-availability": 75,
-                      "check:date": "2021-07-06T21:40:41.840000",
-                      "check:headers:charset": "utf-8",
-                      "check:headers:content-length": 4079,
-                      "check:headers:content-type": "text/plain",
-                      "check:status": 200,
-                      "check:url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/barometre-resultats-synthese-national.csv"
+                        "check:available": true,
+                        "check:count-availability": 75,
+                        "check:date": "2021-07-06T21:40:41.840000",
+                        "check:headers:charset": "utf-8",
+                        "check:headers:content-length": 4079,
+                        "check:headers:content-type": "text/plain",
+                        "check:status": 200,
+                        "check:url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/barometre-resultats-synthese-national.csv"
                     },
                     "filesize": null,
                     "filetype": "remote",
@@ -210,14 +200,12 @@
                     "last_modified": "2021-01-13T11:00:33.332000",
                     "latest": "https://www.data.gouv.fr/fr/datasets/r/71cacba9-4ffd-4ea8-bc3e-694425ddf006",
                     "metrics": {
-                      "views": 1
+                        "views": 1
                     },
                     "mime": null,
                     "preview_url": null,
                     "published": "2021-01-12T15:45:14",
-                    "schema": {
-                      
-                    },
+                    "schema": {},
                     "title": "barometre-resultats-synthese-national.csv",
                     "type": "main",
                     "url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/barometre-resultats-synthese-national.csv"
@@ -229,7 +217,7 @@
         }
     },
     {
-        "topic": "resource.modified",
+        "topic": "udata.resource.modified",
         "key": "1a35594a-99f2-4257-87e0-ec2f55039276",
         "type": "xlsx",
         "message": {
@@ -237,14 +225,12 @@
             "value": {
                 "resource": {
                     "checksum": {
-                      "type": "sha1",
-                      "value": "fd2a5e095d6f5b1c98059cf9dad376f514e95f0e"
+                        "type": "sha1",
+                        "value": "fd2a5e095d6f5b1c98059cf9dad376f514e95f0e"
                     },
                     "created_at": "2022-04-14T15:24:38.551000",
                     "description": null,
-                    "extras": {
-                      
-                    },
+                    "extras": {},
                     "filesize": 290023,
                     "filetype": "file",
                     "format": "xlsx",
@@ -252,14 +238,12 @@
                     "last_modified": "2022-04-14T15:24:40.142000",
                     "latest": "https://www.data.gouv.fr/fr/datasets/r/1a35594a-99f2-4257-87e0-ec2f55039276",
                     "metrics": {
-                      "views": 688
+                        "views": 688
                     },
                     "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                     "preview_url": "/tabular/preview/?url=https%3A%2F%2Fstatic.data.gouv.fr%2Fresources%2Felection-presidentielle-des-10-et-24-avril-2022-resultats-definitifs-du-1er-tour%2F20220414-152438%2Fresultats-par-niveau-cirlg-t1-france-entiere.xlsx",
                     "published": "2022-04-14T15:24:38",
-                    "schema": {
-                      
-                    },
+                    "schema": {},
                     "title": "resultats-par-niveau-cirlg-t1-france-entiere.xlsx",
                     "type": "main",
                     "url": "https://static.data.gouv.fr/resources/election-presidentielle-des-10-et-24-avril-2022-resultats-definitifs-du-1er-tour/20220414-152438/resultats-par-niveau-cirlg-t1-france-entiere.xlsx"
@@ -271,7 +255,7 @@
         }
     },
     {
-        "topic": "resource.modified",
+        "topic": "udata.resource.modified",
         "key": "fe9fe926-a284-484f-8f65-57ffd46f1ba4",
         "type": "json",
         "message": {
@@ -282,14 +266,14 @@
                     "created_at": "2021-01-12T17:12:59.409000",
                     "description": "Synthèse des indicateurs avec leurs valeurs initiales, actuelles et cibles, ainsi que le pourcentage de progression et le taux d’avancement, à l’échelle nationale.",
                     "extras": {
-                      "check:available": true,
-                      "check:count-availability": 13,
-                      "check:date": "2021-06-25T14:01:09.014000",
-                      "check:headers:charset": "utf-8",
-                      "check:headers:content-length": 4788,
-                      "check:headers:content-type": "text/plain",
-                      "check:status": 200,
-                      "check:url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/json/barometre-resultats-synthese-national.json"
+                        "check:available": true,
+                        "check:count-availability": 13,
+                        "check:date": "2021-06-25T14:01:09.014000",
+                        "check:headers:charset": "utf-8",
+                        "check:headers:content-length": 4788,
+                        "check:headers:content-type": "text/plain",
+                        "check:status": 200,
+                        "check:url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/json/barometre-resultats-synthese-national.json"
                     },
                     "filesize": null,
                     "filetype": "remote",
@@ -298,14 +282,12 @@
                     "last_modified": "2021-01-13T11:01:02.132000",
                     "latest": "https://www.data.gouv.fr/fr/datasets/r/fe9fe926-a284-484f-8f65-57ffd46f1ba4",
                     "metrics": {
-                      "views": 4
+                        "views": 4
                     },
                     "mime": null,
                     "preview_url": null,
                     "published": "2021-01-12T17:12:59",
-                    "schema": {
-                      
-                    },
+                    "schema": {},
                     "title": "barometre-resultats-synthese-national.json",
                     "type": "main",
                     "url": "https://github.com/etalab/barometre-resultats-donnees/raw/master/json/barometre-resultats-synthese-national.json"
@@ -317,7 +299,7 @@
         }
     },
     {
-        "topic": "resource.modified",
+        "topic": "udata.resource.modified",
         "key": "98f7cac6-6b29-4859-8739-51b825196959",
         "type": "zip",
         "message": {
@@ -325,17 +307,17 @@
             "value": {
                 "resource": {
                     "checksum": {
-                      "type": "sha1",
-                      "value": "a4ca4d9b4f5bee00de049cb73cc0abe8cbcfc52a"
+                        "type": "sha1",
+                        "value": "a4ca4d9b4f5bee00de049cb73cc0abe8cbcfc52a"
                     },
                     "created_at": "2016-06-13T14:20:43.722000",
                     "description": "Archive ZIP qui regroupe :\n-\tLa liste des produits autorisés ou retirés avec leurs AMM et leurs types de classification. (Fichiers : produits_ … .csv)\n\n-\tLa liste des usages des produits (hors MFSC). Il existe une ligne par usage et produit. Un même produit se retrouve donc sur plusieurs lignes (une par usage du produit). Le tableau contient les produits autorisés et retirés. (Fichiers : produits_usages_ … .csv)\n\n-\tLa liste des usages des produits (hors MFSC) autorisés. Il existe une ligne par usage et produit. Un même produit se retrouve donc sur plusieurs lignes (une par usage du produit). Le tableau contient uniquement les produits autorisés, mais informe sur tous les usages autorisés ou retirés de ce produit. (Fichiers : usages_des_produits_autorises_ … .csv)\n\n-\tLa liste des phrases de risque des produits. (Fichiers : produits_phrases_de_risque_ … .csv)\n\n-\tLa liste des substances actives. (Fichiers : substance_active_ … .csv)\n\n-\tLa liste des conditions d’emploi des produits. Il existe une ligne par conditions d’emploi et produit. Un même produit se retrouve donc sur plusieurs lignes (une par conditions d’emploi du produit). (Fichiers produits_condition_emploi_ … .csv)\n\n-\tLa liste des classes et des mentions danger des produits (hors MFSC). Il existe une ligne par classes – mentions dangers et produit. Un même produit se retrouve donc sur plusieurs lignes. (Fichiers produits_classe_et_mention_danger_ … .csv)\n\n-\tLa liste des usages des MFSC et produits mixtes. Il existe une ligne par usage et produit. Un même produit se retrouve donc sur plusieurs lignes (une par usage du produit). (Fichiers mfsc_et_mixte_usage_ … .csv)\n\n-\tLa liste des compositions des MFSC et produits mixtes. (Fichiers mfsc_et_mixte_composition_ … .csv)",
                     "extras": {
-                      "check:available": true,
-                      "check:count-availability": 18,
-                      "check:date": "2022-01-16T13:11:00.319000",
-                      "check:status": 204,
-                      "check:url": "https://static.data.gouv.fr/resources/donnees-ouvertes-du-catalogue-des-produits-phytopharmaceutiques-adjuvants-matieres-fertilisantes-et-support-de-culture-produits-mixtes-et-melanges-e-phy/20180926-104236/usages-des-produits-autorises-v2-windows-1252.csv"
+                        "check:available": true,
+                        "check:count-availability": 18,
+                        "check:date": "2022-01-16T13:11:00.319000",
+                        "check:status": 204,
+                        "check:url": "https://static.data.gouv.fr/resources/donnees-ouvertes-du-catalogue-des-produits-phytopharmaceutiques-adjuvants-matieres-fertilisantes-et-support-de-culture-produits-mixtes-et-melanges-e-phy/20180926-104236/usages-des-produits-autorises-v2-windows-1252.csv"
                     },
                     "filesize": 6626005,
                     "filetype": "file",
@@ -344,17 +326,15 @@
                     "last_modified": "2022-04-22T15:37:17.098000",
                     "latest": "https://www.data.gouv.fr/fr/datasets/r/98f7cac6-6b29-4859-8739-51b825196959",
                     "metrics": {
-                      "nb_hits": 0,
-                      "nb_uniq_visitors": 0,
-                      "nb_visits": 0,
-                      "views": 113
+                        "nb_hits": 0,
+                        "nb_uniq_visitors": 0,
+                        "nb_visits": 0,
+                        "views": 113
                     },
                     "mime": "application/zip",
                     "preview_url": null,
                     "published": "2022-04-22T15:37:05",
-                    "schema": {
-                      
-                    },
+                    "schema": {},
                     "title": "decisionamm-intrant-format-csv-20220422.zip",
                     "type": "main",
                     "url": "https://static.data.gouv.fr/resources/donnees-ouvertes-du-catalogue-e-phy-des-produits-phytopharmaceutiques-matieres-fertilisantes-et-supports-de-culture-adjuvants-produits-mixtes-et-melanges/20220422-153704/decisionamm-intrant-format-csv-20220422.zip"
@@ -366,20 +346,19 @@
         }
     },
     {
-        "topic": "resource.deleted",
+        "topic": "udata.resource.deleted",
         "key": "8d9398ae-3037-48b2-be19-412c24561fbb",
         "type": "csv",
         "message": {
             "service": "udata",
-            "value": {
-            },
+            "value": {},
             "meta": {
                 "dataset_id": "5448d3e0c751df01f85d0572"
             }
         }
     },
     {
-        "topic": "resource.checked",
+        "topic": "udata.resource.checked",
         "key": "293b988d-639d-49c6-8d8d-4e75cfe1a412",
         "type": "csv",
         "message": {
@@ -418,7 +397,7 @@
         }
     },
     {
-        "topic": "resource.checked.unavailable",
+        "topic": "udata.resource.checked.unavailable",
         "key": "293b988d-639d-49c6-8d8d-4e75cfe1a412",
         "type": "csv",
         "message": {
@@ -443,7 +422,7 @@
         }
     },
     {
-        "topic": "resource.analysed",
+        "topic": "udata.resource.analysed",
         "key": "8d9398ae-3037-48b2-be19-412c24561fbb",
         "type": "csv",
         "message": {
@@ -458,7 +437,7 @@
         }
     },
     {
-        "topic": "resource.stored",
+        "topic": "udata.resource.stored",
         "key": "8d9398ae-3037-48b2-be19-412c24561fbb",
         "type": "csv",
         "message": {
@@ -476,7 +455,7 @@
         }
     },
     {
-        "topic": "resource.analysed",
+        "topic": "udata.resource.analysed",
         "key": "8d9398ae-3037-48b2-be19-412c24561fbb",
         "type": "csv",
         "message": {
